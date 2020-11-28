@@ -24,7 +24,7 @@ export default class Home extends React.Component {
     }
 
     onSubmit() {
-        Axios.post('http://localhost:3000/api/shorterUrl', {
+        Axios.post('https://macy-web-dev-assignment3-back.herokuapp.com/api/shorterUrl', {
             longUrl: this.state.longUrl,
             urlCode: this.state.urlCode,
         })
@@ -122,7 +122,7 @@ export default class Home extends React.Component {
                         </div>
                     </div>
                     {this.state.shortUrl ? (
-                        <input type="button" value={this.state.shortUrl} />
+                        <input id="shorturl" value={this.state.shortUrl} />
                     ) : null}
                     <div></div>
                     {this.state.shortUrl ? (

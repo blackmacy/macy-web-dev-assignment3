@@ -4,7 +4,6 @@ const cors = require('cors')
 const app = express();
 const shorterUrlRouter = require('./routes/shorterUrl');
 const redirectUrlRouter = require('./routes/redirectUrl');
-const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 app.use(express.json());

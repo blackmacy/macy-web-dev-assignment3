@@ -1,6 +1,9 @@
 {
   "name": "yijin-lee-assignmnt3",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.0.0"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -47,6 +50,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.21.5",
-    "prettier": "^2.2.0"
+    "prettier": "^2.2.1"
   }
 }

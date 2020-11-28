@@ -11,6 +11,10 @@
     padding: 50px;
 }
 
+#shorturl {
+    width: 80%;
+}
+
 #long-url-container {
     text-align: center;
     width: 500px;

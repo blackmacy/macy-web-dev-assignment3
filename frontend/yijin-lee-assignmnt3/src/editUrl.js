@@ -34,7 +34,7 @@ export default class EditUrl extends React.Component {
 
     onEdit() {
         Axios.put(
-            `http://localhost:3000/api/shorterUrl/${this.state.urlCode}`,
+            `https://macy-web-dev-assignment3-back.herokuapp.com/api/shorterUrl/${this.state.urlCode}`,
             {
                 longUrl: this.state.longUrl,
             }
@@ -48,7 +48,7 @@ export default class EditUrl extends React.Component {
 
     onDelete() {
         Axios.delete(
-            `http://localhost:3000/api/shorterUrl/${this.state.urlCode}`,
+            `https://macy-web-dev-assignment3-back.herokuapp.com/api/shorterUrl/${this.state.urlCode}`,
             {
                 longUrl: this.state.longUrl,
             }
